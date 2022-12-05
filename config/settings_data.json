@@ -2027,7 +2027,7 @@
           "303afe79-ddb4-4db3-845e-1a00a7ed28c0"
         ],
         "settings": {
-          "display_type": "all",
+          "display_type": "selected",
           "title": "Collections",
           "grid": 4,
           "rows": 1,
