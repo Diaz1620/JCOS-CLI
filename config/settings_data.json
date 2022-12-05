@@ -2028,8 +2028,8 @@
         ],
         "settings": {
           "display_type": "selected",
-          "title": "Collections",
-          "grid": 4,
+          "title": "",
+          "grid": 2,
           "rows": 1,
           "enable_reviews": false,
           "layout_mobile": "carousel"
