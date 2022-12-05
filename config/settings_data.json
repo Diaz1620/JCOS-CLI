@@ -2021,15 +2021,24 @@
               "image": "shopify:\/\/shop_images\/Zrzut_ekranu_2022-10-10_o_18.43.20_60573c14-231a-4c89-8c2c-f16f23797300.png",
               "bg_position": "center-center"
             }
+          },
+          "4b4ae198-188b-4876-b4ec-478efa868f76": {
+            "type": "collection",
+            "settings": {
+              "collection": "herb",
+              "collection_name": "",
+              "bg_position": "center-center"
+            }
           }
         },
         "block_order": [
-          "303afe79-ddb4-4db3-845e-1a00a7ed28c0"
+          "303afe79-ddb4-4db3-845e-1a00a7ed28c0",
+          "4b4ae198-188b-4876-b4ec-478efa868f76"
         ],
         "settings": {
           "display_type": "selected",
           "title": "",
-          "grid": 2,
+          "grid": 4,
           "rows": 1,
           "enable_reviews": false,
           "layout_mobile": "carousel"
