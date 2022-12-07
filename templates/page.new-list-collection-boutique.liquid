@@ -1,8 +1,11 @@
 <!-- /templates/page.liquid -->
 
-<section class="page">
+<section>
 {% unless page.handle == "About" %} 
 	<h1 class="page__title">{{ page.title }}</h1>
  {% endunless %}
-	<div class="rte clearfix">{{ page.content }}</div>
+	<div class="">
+        {{ page.content }}
+        {% section 'list-collections-boutique' %}
+    </div>
 </section>
