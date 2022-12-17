@@ -1029,8 +1029,8 @@
           "featured_color_text": "#ffffff",
           "featured_color_overlay": "#222222",
           "featured_overlay_opacity": 10,
-          "show_subcollection": true,
-          "subcollection_layout": "grid",
+          "show_subcollection": false,
+          "subcollection_layout": "carousel",
           "subcollection_description": false
         }
       },
@@ -2020,10 +2020,20 @@
               "collection_name": "",
               "bg_position": "center-center"
             }
+          },
+          "fcfea739-c6f4-479b-9cf5-226c50392bd7": {
+            "type": "collection",
+            "settings": {
+              "collection": "zabuton",
+              "collection_name": "",
+              "image": "shopify:\/\/shop_images\/Zrzut_ekranu_2022-10-10_o_18.43.20_60573c14-231a-4c89-8c2c-f16f23797300.png",
+              "bg_position": "center-center"
+            }
           }
         },
         "block_order": [
-          "7e0051f1-95ab-4168-9095-7c4b9b39d832"
+          "7e0051f1-95ab-4168-9095-7c4b9b39d832",
+          "fcfea739-c6f4-479b-9cf5-226c50392bd7"
         ],
         "settings": {
           "display_type": "selected",
