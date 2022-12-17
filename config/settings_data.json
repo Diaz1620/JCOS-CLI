@@ -2013,26 +2013,17 @@
       "list-collections-boutique": {
         "type": "list-collections-boutique",
         "blocks": {
-          "303afe79-ddb4-4db3-845e-1a00a7ed28c0": {
+          "7e0051f1-95ab-4168-9095-7c4b9b39d832": {
             "type": "collection",
             "settings": {
-              "collection": "claynal",
-              "collection_name": "",
-              "bg_position": "center-center"
-            }
-          },
-          "4b4ae198-188b-4876-b4ec-478efa868f76": {
-            "type": "collection",
-            "settings": {
-              "collection": "herb",
+              "collection": "jewelry",
               "collection_name": "",
               "bg_position": "center-center"
             }
           }
         },
         "block_order": [
-          "303afe79-ddb4-4db3-845e-1a00a7ed28c0",
-          "4b4ae198-188b-4876-b4ec-478efa868f76"
+          "7e0051f1-95ab-4168-9095-7c4b9b39d832"
         ],
         "settings": {
           "display_type": "selected",
