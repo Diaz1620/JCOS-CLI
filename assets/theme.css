@@ -6338,7 +6338,8 @@ hr.hr--no-margin {
 .grid__heading-holder > * {
   position: relative;
   z-index: 11;
-  padding: var(--gutter) var(--outer);
+  padding: 15px 52px 52px 52px;
+  /* padding: var(--gutter) var(--outer); */
   margin: 0;
   text-align: center;
   word-break: break-word;
@@ -6357,7 +6358,7 @@ hr.hr--no-margin {
   padding-top: 0;
 }
 .grid__heading {
-  font-size: calc(var(--font-5) * var(---font-adjust-heading));
+  font-size: calc(var(--font-3) * var(---font-adjust-heading));
 }
 .grid__description:first-child > :first-child {
   margin-top: 0;
@@ -15710,7 +15711,7 @@ body .shopify-policy__container {
 .shopify-policy__title h1 {
   font-size: calc(var(--font-7) * var(---font-adjust-heading));
   text-align: center;
-  margin: 0 0 50px;
+  margin: 0 0 0px;
 }
 .page-contact-holder {
   margin-top: 40px;
