@@ -74,7 +74,7 @@
           "logo_max_limit": 135,
           "mobile_logo": "shopify:\/\/shop_images\/JcosWordmark_2ColorDark_Petal_1.png",
           "mobile_logo_max_limit": 120,
-          "main_menu_linklist": "new-navbar",
+          "main_menu_linklist": "boutique-nav-bar",
           "enable_search": true,
           "enable_account": true,
           "header_sticky": "sticky",
