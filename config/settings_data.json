@@ -2056,6 +2056,15 @@
               "image": "shopify:\/\/shop_images\/gettyimages-1280866820-170667a.jpg",
               "bg_position": "center-center"
             }
+          },
+          "f4b8d552-e72e-4715-8cc6-9c0bbecfa729": {
+            "type": "collection",
+            "settings": {
+              "collection": "kiku",
+              "collection_name": "",
+              "image": "shopify:\/\/shop_images\/kimono_story_1080x_1fa6f2b0-89b8-4400-9afb-ce7dd8d99d49.webp",
+              "bg_position": "center-center"
+            }
           }
         },
         "block_order": [
@@ -2063,7 +2072,8 @@
           "fcfea739-c6f4-479b-9cf5-226c50392bd7",
           "8d02fddf-8fa2-4611-bdd6-a3e626e32138",
           "d6516a8c-be89-43df-a91f-480e51ad36fe",
-          "f54f0316-4f92-4d7d-a3e6-3a32a10b012e"
+          "f54f0316-4f92-4d7d-a3e6-3a32a10b012e",
+          "f4b8d552-e72e-4715-8cc6-9c0bbecfa729"
         ],
         "settings": {
           "display_type": "selected",
