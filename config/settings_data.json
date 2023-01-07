@@ -1874,7 +1874,7 @@
               "text_color": "text-dark",
               "bg_color": "#ffffff",
               "button_text": "Learn More",
-              "button_url": "shopify:\/\/collections\/jewelry",
+              "button_url": "shopify:\/\/pages\/boutique-collections",
               "button_color": "btn--neutral",
               "button_style": "hero__btn btn btn--large btn--outline caps"
             }
