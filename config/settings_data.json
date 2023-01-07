@@ -423,8 +423,8 @@
           "db3470e0-b8f2-42b3-b0e0-7dfed1fc7b89": {
             "type": "image",
             "settings": {
-              "bg_position": "center-center",
-              "image": "shopify:\/\/shop_images\/mizuhiki.jpg",
+              "bg_position": "center-top",
+              "image": "shopify:\/\/shop_images\/Feature.jpg",
               "mobile_image": "shopify:\/\/shop_images\/mizuhiki.jpg",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
@@ -502,7 +502,7 @@
               "bg_position": "center-center",
               "image": "shopify:\/\/shop_images\/k6_Easy-Resize.com.jpg",
               "overlay_opacity": 25,
-              "overlay_color": "#000",
+              "overlay_color": "#000000",
               "title": "Limited Collections",
               "description": "Boutique, our line of home decor and fashion accessories that embody the Japanese lifestyle. Curated with the same care, respect for tradition, and attention to detail for which the JCOS brand is known, sustainability, transparency, and a dedication to remaining true to Japanese culture are at the very core of the Boutique ethos. \n  Committed to a less-is-more philosophy and bringing the absolute best in self-care products to market, Boutique offers a limited supply of lifestyle collections, each carefully selected with care. By partnering with local wellness brands and artisans from around the globe, we proudly present Boutique.",
               "flex_align": "align--middle-center",
