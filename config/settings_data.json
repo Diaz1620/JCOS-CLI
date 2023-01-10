@@ -1865,9 +1865,9 @@
           "16547752916ee392f2-1": {
             "type": "text",
             "settings": {
-              "subheading": "Mizuhiki",
-              "title": "Traditional, artistic, and subtle accessories.",
-              "text": "<p>Uncover traditional Japanese art of paper knots manifesting happiness, longevity, and dreams<br\/>coming true.<\/p>",
+              "subheading": "Boutique",
+              "title": "Our line of home decor and fashion accessories that embody the Japanese lifestyle.",
+              "text": "<p>By partnering with local wellness brands and artisans from around the globe, we proudly present Boutique.<\/p>",
               "text_size": 2,
               "text_columns": 1,
               "align_text": "text-left",
@@ -1882,7 +1882,7 @@
           "16547752916ee392f2-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/305761771_1246310806123834_493259125078088143_n.jpg",
+              "image": "shopify:\/\/shop_images\/Chair_pillowcase.jpg",
               "bg_position": "center-center",
               "overlay_opacity": 0,
               "overlay_color": "#000000",
