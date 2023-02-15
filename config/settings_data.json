@@ -498,6 +498,7 @@
           },
           "0a9e9415-6a33-4723-814f-91b491e8003e": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "bg_position": "center-center",
               "image": "shopify:\/\/shop_images\/k6_Easy-Resize.com.jpg",
