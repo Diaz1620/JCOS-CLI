@@ -362,7 +362,9 @@
           data-focus-element
           {% unless current_variant.available %}disabled="disabled"{% endunless %}>
           <span data-add-to-cart-text>
-            {%- if current_variant.available and product.tags contains '_preorder' -%}
+            {% if localization.country.iso_code == 'PL' %} 
+                <a href="https://www.hebe.com/cz/ten-essences-hydratacni-a-vyzivujici-kondicioner-pro-vsechny-typy-vlasu--700-ml-000000000000358529.html">View product in hebe</a>
+            {%- elsif current_variant.available and product.tags contains '_preorder' -%}
               {{ 'products.product.pre_order' | t }}
             {%- elsif current_variant.available -%}
               {{ 'products.product.add_to_cart' | t }}
