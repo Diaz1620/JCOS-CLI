@@ -354,11 +354,6 @@
   <div class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}" data-product-id="{{ product.id }}">
     <div class="product__submit__buttons">
       <div class="product__submit__item">
-        {% if localization.country.iso_code == 'PL' %}
-          <button class="btn product__submit__add {{ localization.country.iso_code }}">
-            <a href="https://www.hebe.com/cz/ten-essences-hydratacni-a-vyzivujici-kondicioner-pro-vsechny-typy-vlasu--700-ml-000000000000358529.html">View product in hebe</a>
-          </button>
-        {% else %}
         <button
           type="submit"
           name="add"
@@ -388,7 +383,6 @@
           {{ form | payment_button }}
         </div>
       {% endif %}
-    {% endif %}
     </div>
 
     <div data-cart-errors-container class="product__form__errors"></div>
