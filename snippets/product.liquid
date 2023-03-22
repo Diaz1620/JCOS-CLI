@@ -209,15 +209,15 @@
             {%- endif -%}
 
             {% if localization.country.iso_code == 'PL' %}
-            <div class="product__submit">
+            {% comment %} <div class="product__submit">
               <div class="product__submit__buttons">
-                <div class="product__submit__item">
+                <div class="product__submit__item"> {% endcomment %}
                   <button class="btn product__submit__add {{ localization.country.iso_code }}>
                     <a href="https://www.hebe.com/cz/ten-essences-hydratacni-a-vyzivujici-kondicioner-pro-vsechny-typy-vlasu--700-ml-000000000000358529.html">View product in hebe</a>
                   </button>
-                </div>
+                {% comment %} </div>
               </div>
-            </div>
+            </div> {% endcomment %}
             {% else %}
               <div data-product-form class="product__form  {{ hide_labels_class }}">
                 {% render 'product-form', product: product, section: section, unique: unique %}
