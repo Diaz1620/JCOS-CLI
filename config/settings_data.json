@@ -74,7 +74,7 @@
           "logo_max_limit": 135,
           "mobile_logo": "shopify:\/\/shop_images\/JcosWordmark_2ColorDark_Petal_1.png",
           "mobile_logo_max_limit": 120,
-          "main_menu_linklist": "new-navbar",
+          "main_menu_linklist": "boutique-nav-bar",
           "enable_search": true,
           "enable_account": true,
           "header_sticky": "sticky",
@@ -423,18 +423,18 @@
           "db3470e0-b8f2-42b3-b0e0-7dfed1fc7b89": {
             "type": "image",
             "settings": {
-              "bg_position": "center-center",
-              "image": "shopify:\/\/shop_images\/mizuhiki.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/mizuhiki.jpg",
+              "bg_position": "center-top",
+              "image": "shopify:\/\/shop_images\/Feature.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/resized-boutique.jpg",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
-              "title": "A beautiful craft that includes a wish.",
-              "description": "Discover the unique world of Mizuhiki accessories.",
+              "title": "Boutique",
+              "description": "Limited collections curated with the same care, respect for tradition, and attention to detail for which the JCOS brand is known.",
               "flex_align": "align--middle-center",
               "text_color": "text-light",
               "transparent": true,
               "link_text": "Shop Now",
-              "link": "shopify:\/\/collections\/jewelry",
+              "link": "shopify:\/\/pages\/boutique-collections",
               "button_color": "btn--secondary",
               "button_style": "hero__btn btn btn--large caps"
             }
@@ -495,6 +495,25 @@
               "button_color": "btn--secondary",
               "button_style": "hero__btn btn btn--large caps"
             }
+          },
+          "0a9e9415-6a33-4723-814f-91b491e8003e": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "bg_position": "center-center",
+              "image": "shopify:\/\/shop_images\/k6_Easy-Resize.com.jpg",
+              "overlay_opacity": 25,
+              "overlay_color": "#000000",
+              "title": "Limited Collections",
+              "description": "Boutique, our line of home decor and fashion accessories that embody the Japanese lifestyle. Curated with the same care, respect for tradition, and attention to detail for which the JCOS brand is known, sustainability, transparency, and a dedication to remaining true to Japanese culture are at the very core of the Boutique ethos. \n  Committed to a less-is-more philosophy and bringing the absolute best in self-care products to market, Boutique offers a limited supply of lifestyle collections, each carefully selected with care. By partnering with local wellness brands and artisans from around the globe, we proudly present Boutique.",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "View products",
+              "link": "shopify:\/\/pages\/boutique-collections",
+              "button_color": "btn--white",
+              "button_style": "hero__btn btn btn--large btn--outline caps"
+            }
           }
         },
         "block_order": [
@@ -505,7 +524,8 @@
           "db3470e0-b8f2-42b3-b0e0-7dfed1fc7b89",
           "20b7bc5c-28b7-4faa-8bb4-a99d8ddfe237",
           "8c1e1fe0-88d8-4897-91fc-630ef9141d97",
-          "734a17c2-947a-453f-81fe-82a4b6ef7ed8"
+          "734a17c2-947a-453f-81fe-82a4b6ef7ed8",
+          "0a9e9415-6a33-4723-814f-91b491e8003e"
         ],
         "settings": {
           "height": "screen-height-three-quarters",
@@ -1846,16 +1866,16 @@
           "16547752916ee392f2-1": {
             "type": "text",
             "settings": {
-              "subheading": "Mizuhiki",
-              "title": "Traditional, artistic, and subtle accessories.",
-              "text": "<p>Uncover traditional Japanese art of paper knots manifesting happiness, longevity, and dreams<br\/>coming true.<\/p>",
+              "subheading": "Boutique",
+              "title": "Our line of home decor and fashion accessories that embody the Japanese lifestyle.",
+              "text": "<p>By partnering with local wellness brands and artisans from around the globe, we proudly present Boutique.<\/p>",
               "text_size": 2,
               "text_columns": 1,
               "align_text": "text-left",
               "text_color": "text-dark",
               "bg_color": "#ffffff",
               "button_text": "Learn More",
-              "button_url": "shopify:\/\/collections\/jewelry",
+              "button_url": "shopify:\/\/pages\/boutique-collections",
               "button_color": "btn--neutral",
               "button_style": "hero__btn btn btn--large btn--outline caps"
             }
@@ -1863,7 +1883,7 @@
           "16547752916ee392f2-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/305761771_1246310806123834_493259125078088143_n.jpg",
+              "image": "shopify:\/\/shop_images\/Chair_pillowcase.jpg",
               "bg_position": "center-center",
               "overlay_opacity": 0,
               "overlay_color": "#000000",
@@ -2015,6 +2035,7 @@
         "blocks": {
           "7e0051f1-95ab-4168-9095-7c4b9b39d832": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "jewelry",
               "collection_name": "",
@@ -2029,11 +2050,51 @@
               "image": "shopify:\/\/shop_images\/Zrzut_ekranu_2022-10-10_o_18.43.20_60573c14-231a-4c89-8c2c-f16f23797300.png",
               "bg_position": "center-center"
             }
+          },
+          "8d02fddf-8fa2-4611-bdd6-a3e626e32138": {
+            "type": "collection",
+            "settings": {
+              "collection": "ume-musubi-mizuhiki",
+              "collection_name": "",
+              "image": "shopify:\/\/shop_images\/305761771_1246310806123834_493259125078088143_n.jpg",
+              "bg_position": "center-center"
+            }
+          },
+          "d6516a8c-be89-43df-a91f-480e51ad36fe": {
+            "type": "collection",
+            "settings": {
+              "collection": "heart-mizuhiki",
+              "collection_name": "",
+              "image": "shopify:\/\/shop_images\/shutterstock_1558235306.jpg",
+              "bg_position": "center-center"
+            }
+          },
+          "f54f0316-4f92-4d7d-a3e6-3a32a10b012e": {
+            "type": "collection",
+            "settings": {
+              "collection": "kanou-musubi-mizuhiki",
+              "collection_name": "",
+              "image": "shopify:\/\/shop_images\/gettyimages-1280866820-170667a.jpg",
+              "bg_position": "center-center"
+            }
+          },
+          "f4b8d552-e72e-4715-8cc6-9c0bbecfa729": {
+            "type": "collection",
+            "settings": {
+              "collection": "kiku",
+              "collection_name": "",
+              "image": "shopify:\/\/shop_images\/kimono_story_1080x_1fa6f2b0-89b8-4400-9afb-ce7dd8d99d49.webp",
+              "bg_position": "center-center"
+            }
           }
         },
         "block_order": [
           "7e0051f1-95ab-4168-9095-7c4b9b39d832",
-          "fcfea739-c6f4-479b-9cf5-226c50392bd7"
+          "fcfea739-c6f4-479b-9cf5-226c50392bd7",
+          "8d02fddf-8fa2-4611-bdd6-a3e626e32138",
+          "d6516a8c-be89-43df-a91f-480e51ad36fe",
+          "f54f0316-4f92-4d7d-a3e6-3a32a10b012e",
+          "f4b8d552-e72e-4715-8cc6-9c0bbecfa729"
         ],
         "settings": {
           "display_type": "selected",
