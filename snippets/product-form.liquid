@@ -357,7 +357,7 @@
         <button
           type="submit"
           name="add"
-          class="btn product__submit__add"
+          class="btn product__submit__add {{ localization.country.iso_code }}"
           data-add-to-cart
           data-focus-element
           {% unless current_variant.available %}disabled="disabled"{% endunless %}>
