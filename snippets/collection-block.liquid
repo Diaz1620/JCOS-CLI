@@ -51,7 +51,9 @@
 
     {%- capture products_list_html -%}
       {{ products_list_html }}
+      {% unless product.tags contains 'do_not_sell_pl' and localization.country.iso_code == 'PL' %}
       {% render 'product-grid-item', product: product, grid_strings: grid_strings_additional, showReviews: show_reviews, animation_delay: animation_delay, collection: collection, index: forloop.index %}
+      {% endunless %}
     {%- endcapture -%}
   {% endfor %}
 {%- elsif section.settings.display_type == 'selected' and block.settings.collection == blank -%}
