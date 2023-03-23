@@ -207,18 +207,9 @@
             {%- if section.settings.show_labels == false -%}
               {% assign hide_labels_class = 'variant__labels--hide' -%}
             {%- endif -%}
-
-            {% if localization.country.iso_code == 'PL' %}
-            <div class="product__submit">
-              <div class="product__submit__buttons">
-                <div class="product__submit__item">
-                  <button class="btn product__submit__add {{ localization.country.iso_code }}" style="color: white">
-                    <a href="https://www.hebe.com/cz/ten-essences-hydratacni-a-vyzivujici-kondicioner-pro-vsechny-typy-vlasu--700-ml-000000000000358529.html">View product in hebe</a>
-                  </button>
-                </div>
-              </div>
-            </div>
-
+            {% if location.country.iso_code == "PL" %}
+              <a href="https://www.hebe.com/cz/ten-essences-hydratacni-a-vyzivujici-kondicioner-pro-vsechny-typy-vlasu--700-ml-000000000000358529.html" class="btn product__submit__add {{ localization.country.iso_code }}"></a>
+              {% else %}
               <div data-product-form class="product__form  {{ hide_labels_class }}">
                 {% render 'product-form', product: product, section: section, unique: unique %}
               </div>
