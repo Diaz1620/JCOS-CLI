@@ -274,6 +274,7 @@
               </fieldset>
             {%- else -%}
               {%- assign selects_counter = selects_counter | plus: 1 -%}
+              {% unless location.country.iso_code == 'PL' %}
               <div class="select__fieldset">               
                 {% capture input_id %}{{product.id}}-option-{{ option.position }}{% endcapture %}
                 <span class="radio__legend">
@@ -299,6 +300,7 @@
                   <input type="hidden" name="options[{{ option.name | escape_once }}]" id="{{ input_id }}" value="{{ option.selected_value }}" data-popout-input data-single-option-selector data-index="option{{ option.position }}"/>
                 </div>
               </div>
+            {% endunless %}
             {%- endif -%}
           </div>
         {% endfor %}
