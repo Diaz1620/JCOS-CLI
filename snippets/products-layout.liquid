@@ -105,7 +105,7 @@
               {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
             {%- endif -%}
             {%- assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"' -%}
-            {% unless product.tags contains "do_not_sell_in_pl" and localization.country.iso_code == 'PL' %}
+            {% unless product.tags contains "do_not_sell_pl" and localization.country.iso_code == 'PL' %}
             {%- render 'product-grid-item', product: product, grid_strings: grid_strings, showReviews: show_reviews, animation_delay: animation_delay, additional_attributes: layout_slide_attributes, index: forloop.index -%}
           {% endunless %}
           {%- endfor -%}

@@ -266,8 +266,11 @@
         {%- for product in collection.products -%}
           {%- assign grid_int = section.settings.grid | times: 1 -%}
           {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
-          {% unless product.tags contains "do_not_sell_in_pl" and localization.country.iso_code == 'PL' %}
+          {% unless product.tags contains "do_not_sell_pl" and localization.country.iso_code == 'PL' %}
             {{ localization.country.iso_code }}
+            {% for tag in product.tags %}
+              {{ tag }}
+            {% endfor %}
             {%- render 'product-grid-item', product: product, grid_strings: grid_strings, animation_delay: animation_delay, showReviews: show_reviews, index: forloop.index -%}
           {% elsif product.tags contains "sell_in_cz" and localization.country.iso_code == 'CZ' %}
             {%- render 'product-grid-item', product: product, grid_strings: grid_strings, animation_delay: animation_delay, showReviews: show_reviews, index: forloop.index -%}
