@@ -106,8 +106,10 @@
             {%- endif -%}
             {%- assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"' -%}
             {% unless product.tags contains "do_not_sell_pl" and localization.country.iso_code == 'PL' %}
-            {%- render 'product-grid-item', product: product, grid_strings: grid_strings, showReviews: show_reviews, animation_delay: animation_delay, additional_attributes: layout_slide_attributes, index: forloop.index -%}
-          {% endunless %}
+              {% unless product.tags contains "sell_in_cz" and localization.country.iso_code == 'CZ' %}
+                {%- render 'product-grid-item', product: product, grid_strings: grid_strings, showReviews: show_reviews, animation_delay: animation_delay, additional_attributes: layout_slide_attributes, index: forloop.index -%}
+              {% endunless %}
+            {% endunless %}
           {%- endfor -%}
         {%- else -%}
           {%- for i in (1..limit_onboarding) -%}
