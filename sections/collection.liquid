@@ -272,7 +272,7 @@
           {% elsif product.tags contains "sell_in_cz" and localization.country.iso_code == 'CZ' %}
             {%- render 'product-grid-item', product: product, grid_strings: grid_strings, animation_delay: animation_delay, showReviews: show_reviews, index: forloop.index -%}
           {% else %}
-            {%- render 'product-grid-item', product: product, grid_strings: grid_strings, animation_delay: animation_delay, showReviews: show_reviews, index: forloop.index -%}
+            {% comment %} {%- render 'product-grid-item', product: product, grid_strings: grid_strings, animation_delay: animation_delay, showReviews: show_reviews, index: forloop.index -%} {% endcomment %}
           {% endunless %}
         {%- endfor -%}
       {%- else -%}
