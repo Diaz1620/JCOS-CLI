@@ -105,6 +105,10 @@
     {% endif %}
     
     {% if settings.quickview_enable and current_variant %}
+    {% unless localization.country.iso_code == "PL" %}
+    {% unless localization.country.iso_code == "CZ" %}
+      
+
       <button type="button" class="quick-add-button" tabindex="-1" data-button-quick-add-mobile {% if product.has_only_default_variant %} data-quick-add-button{% endif %}>
         <span class="visually-hidden">{{ 'products.general.quick_view' | t }}</span>
 
@@ -130,6 +134,8 @@
 
         <div data-quick-add-form-holder></div>
       </div>
+    {% endunless %}
+    {% endunless %}
     {% endif %}
   {% endcapture %}
 
