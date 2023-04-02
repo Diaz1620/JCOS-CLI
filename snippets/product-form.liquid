@@ -363,7 +363,7 @@
     <div class="product__submit__buttons">
       <div class="product__submit__item">
         {% if localization.country.iso_code == "PL" or localization.country.iso_code == "CZ" %}
-            <a href="{{ product.metafields.custom.pl_cz_link }}">View product in hebe</a>
+            <a class="btn product__submit__add" href="{{ product.metafields.custom.pl_cz_link }}">View product in hebe</a>
         {% else %}
         <button
           type="submit"
