@@ -174,7 +174,7 @@
     data-aos-duration="{{ animation_delay | times: 50 | plus: 800 }}"
     data-aos-anchor="{{ animation_anchor }}"
     data-product-information>
-    <a data-grid-link class="product-link" href="{{- product_url -}}" aria-label="{{ product.title | strip_html | escape }}">
+    <a data-grid-link class="product-link" {% if localization.country.iso_code == "PL" or localization.country.iso_code == "CZ" %} href="{{ product.metafields.custom.pl_cz_link }}" {% endif %} href="{{- product_url -}}" aria-label="{{ product.title | strip_html | escape }}">
       {%- if showReviews and settings.enable_product_reviews -%}
         <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
       {%- endif -%}
