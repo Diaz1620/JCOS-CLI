@@ -95,7 +95,7 @@
 
 
 
-<div class="collection-block">
+<div class="collection-block" {% if collection.products.size == 0 %} style="display:none;" {% endif %}>
   <div class="collection-block__content">
     {%- if collection_title != blank or collection.title != blank -%}
       <h2 class="collection-block__title h4">
