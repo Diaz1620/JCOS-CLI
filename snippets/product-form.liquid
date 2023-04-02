@@ -350,15 +350,19 @@
   {%- endif -%}
 
   {%- if quantity_bottom_show and section.settings.show_quantity -%}
-    {{ quantity_selector }}
+    {% unless localization.country.iso_code == "PL" %}
+      {% unless localization.country.iso_code == "CZ" %}
+        {{ quantity_selector }}
+      {% endunless %}
+    {% endunless %}
   {%- endif -%}
 
   <div class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}" data-product-id="{{ product.id }}">
     <div class="product__submit__buttons">
       <div class="product__submit__item">
-        {% if localization.country.iso_code == 'PL' %}
+      {% if localization.country.iso_code == "PL" or localization.country.iso_code == "CZ" %}
           <button class="btn product__submit__add {{ localization.country.iso_code }}">
-            <a href="https://www.hebe.com/cz/ten-essences-hydratacni-a-vyzivujici-kondicioner-pro-vsechny-typy-vlasu--700-ml-000000000000358529.html">View product in hebe</a>
+            <a href="{{ product.metafields.custom.pl_cz_link }}">View product in hebe</a>
           </button>
         {% else %}
         <button
