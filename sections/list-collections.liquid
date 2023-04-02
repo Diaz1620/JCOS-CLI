@@ -41,7 +41,7 @@
       {%- if section.settings.display_type == 'all' -%}
         {%- for collection in collections -%}
           {% if collection.handle != 'frontpage' and collection.products.size > 0 %}
-            <div class="collection-block__wrapper collection-block__wrapper--{{ collection.handle }}">
+            <div class="collection-block__wrapper collection-block__wrapper--{{ collection.handle }}"  {% if collection.products.size < 1 %} style="display: none;" {% endif %}>
               {%- render 'collection-block', section: section, collection: collection, block: block, grid_strings: grid_strings, limit: limit, show_reviews: show_reviews -%}
             </div>
           {% endif %}
