@@ -144,11 +144,6 @@
   {%- endcapture -%}
 {%- endif -%}
 
-{% if localization.country.iso_code == "PL" or localization.country.iso_code == "CZ" %}
-          <button class="btn product__submit__add {{ localization.country.iso_code }}">
-            <a href="{{ product.metafields.custom.pl_cz_link }}">View product in hebe</a>
-          </button>
-  {% else %}
     
 
 {% form 'product', product, class: 'product-form', data-product-form: '' %}
@@ -367,10 +362,8 @@
   <div class="product__submit{% if buybutton_setting %} product__submit--spb{% endif %}" data-product-id="{{ product.id }}">
     <div class="product__submit__buttons">
       <div class="product__submit__item">
-      {% if localization.country.iso_code == "PL" or localization.country.iso_code == "CZ" %}
-          <button class="btn product__submit__add {{ localization.country.iso_code }}">
+        {% if localization.country.iso_code == "PL" or localization.country.iso_code == "CZ" %}
             <a href="{{ product.metafields.custom.pl_cz_link }}">View product in hebe</a>
-          </button>
         {% else %}
         <button
           type="submit"
@@ -440,4 +433,3 @@
     </script>
   </div>
 {% endform %}
-{% endif %}
