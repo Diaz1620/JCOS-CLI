@@ -144,6 +144,13 @@
   {%- endcapture -%}
 {%- endif -%}
 
+{% if localization.country.iso_code == "PL" or localization.country.iso_code == "CZ" %}
+          <button class="btn product__submit__add {{ localization.country.iso_code }}">
+            <a href="{{ product.metafields.custom.pl_cz_link }}">View product in hebe</a>
+          </button>
+  {% else %}
+    
+
 {% form 'product', product, class: 'product-form', data-product-form: '' %}
   {% comment %} The input with name="id" submits to cart {% endcomment %} 
   <input type="hidden" name="id" value="{{ current_variant.id }}">
@@ -433,3 +440,4 @@
     </script>
   </div>
 {% endform %}
+{% endif %}
