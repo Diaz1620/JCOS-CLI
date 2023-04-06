@@ -2301,6 +2301,7 @@
         "blocks": {
           "page-about-10-0": {
             "type": "product",
+            "disabled": true,
             "settings": {
               "title": "Product Feature",
               "product": "",
@@ -2310,6 +2311,7 @@
           },
           "page-about-10-1": {
             "type": "review",
+            "disabled": true,
             "settings": {
               "title": "Example Customer",
               "review": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
