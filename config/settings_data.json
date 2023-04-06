@@ -1314,14 +1314,14 @@
             "type": "text",
             "settings": {
               "subheading": "Introducing",
-              "title": "Text block",
-              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "title": "Philosophy of Self-Care",
+              "text": "<p>At JCOS, we believe beauty isn’t just about what’s on the surface. It’s about how you feel on the inside as well. Living by the JCOS Philosophy goes beyond just using our products - it's about a lifestyle of self-care and happiness. We strive to provide a complete experience, guiding you through the steps of self-care and helping you to restore balance and serenity in your life.Our philosophy is based on the idea of approaching beauty with intention – usingour products not only to nourish and care for your skin, but to also bring a sense of peace, relaxation, and harmony into your life. We hope to inspire a lifestyle designed to help you relax and unwind, while providing you with products that give you the nourishment and hydration your skin needs. To do that, we only select the best all-natural and non-toxic products Japan has to offer.<\/p>",
               "text_size": 2,
               "text_columns": 1,
               "align_text": "text-left",
               "text_color": "text-dark",
               "bg_color": "#ffffff",
-              "button_text": "Learn more",
+              "button_text": "",
               "button_url": "",
               "button_color": "btn--neutral",
               "button_style": "hero__btn btn btn--large btn--outline caps"
