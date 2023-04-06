@@ -2252,15 +2252,15 @@
           "23f9fbe1-c6fb-403b-aab7-0af614348f2e": {
             "type": "text",
             "settings": {
-              "subheading": "Introducing",
-              "title": "Text block",
-              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "subheading": "",
+              "title": "Work With A Brand that Inspires and Empowers",
+              "text": "<p><a href=\"https:\/\/www.shareasale.com\/shareasale.cfm?merchantID=127637\" target=\"_blank\" title=\"https:\/\/www.shareasale.com\/shareasale.cfm?merchantID=127637\">Share-A-Sale<\/a><\/p><p>Amazon<\/p>",
               "text_size": 2,
               "text_columns": 1,
               "align_text": "text-left",
               "text_color": "text-dark",
               "bg_color": "#ffffff",
-              "button_text": "Learn more",
+              "button_text": "",
               "button_url": "",
               "button_color": "btn--neutral",
               "button_style": "hero__btn btn btn--large btn--outline caps"
