@@ -1291,6 +1291,47 @@
       },
       "page-about-6": {
         "type": "page-about-6",
+        "blocks": {
+          "eedac2f4-d5f0-480b-a6a9-55e5305e80c6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7.jpg",
+              "bg_position": "center-center",
+              "overlay_opacity": 0,
+              "overlay_color": "#000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "hero__btn btn btn--large btn--outline caps"
+            }
+          },
+          "4711bb10-be83-453e-b0b3-2016b1bd3980": {
+            "type": "text",
+            "settings": {
+              "subheading": "Introducing",
+              "title": "Text block",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "Learn more",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "hero__btn btn btn--large btn--outline caps"
+            }
+          }
+        },
+        "block_order": [
+          "eedac2f4-d5f0-480b-a6a9-55e5305e80c6",
+          "4711bb10-be83-453e-b0b3-2016b1bd3980"
+        ],
         "settings": {
           "height": "screen-height-one-half",
           "padding": false,
@@ -2103,6 +2144,154 @@
           "rows": 1,
           "enable_reviews": false,
           "layout_mobile": "carousel"
+        }
+      },
+      "page-about-7": {
+        "type": "page-about-7",
+        "blocks": {
+          "page-about-7-0": {
+            "type": "product",
+            "settings": {
+              "title": "Product Feature",
+              "product": "",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          },
+          "page-about-7-1": {
+            "type": "review",
+            "settings": {
+              "title": "Example Customer",
+              "review": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+              "subheading": "@username",
+              "review_url": "https:\/\/twitter.com\/",
+              "review_link_name": "View on Twitter",
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "page-about-7-0",
+          "page-about-7-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": false
+        }
+      },
+      "page-about-8": {
+        "type": "page-about-8",
+        "blocks": {
+          "page-about-8-0": {
+            "type": "product",
+            "settings": {
+              "title": "Product Feature",
+              "product": "",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          },
+          "page-about-8-1": {
+            "type": "review",
+            "settings": {
+              "title": "Example Customer",
+              "review": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+              "subheading": "@username",
+              "review_url": "https:\/\/twitter.com\/",
+              "review_link_name": "View on Twitter",
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "page-about-8-0",
+          "page-about-8-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": false
+        }
+      },
+      "page-about-9": {
+        "type": "page-about-9",
+        "blocks": {
+          "page-about-9-0": {
+            "type": "product",
+            "settings": {
+              "title": "Product Feature",
+              "product": "",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          },
+          "page-about-9-1": {
+            "type": "review",
+            "settings": {
+              "title": "Example Customer",
+              "review": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+              "subheading": "@username",
+              "review_url": "https:\/\/twitter.com\/",
+              "review_link_name": "View on Twitter",
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "page-about-9-0",
+          "page-about-9-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": false
+        }
+      },
+      "page-about-10": {
+        "type": "page-about-10",
+        "blocks": {
+          "page-about-10-0": {
+            "type": "product",
+            "settings": {
+              "title": "Product Feature",
+              "product": "",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          },
+          "page-about-10-1": {
+            "type": "review",
+            "settings": {
+              "title": "Example Customer",
+              "review": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+              "subheading": "@username",
+              "review_url": "https:\/\/twitter.com\/",
+              "review_link_name": "View on Twitter",
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "page-about-10-0",
+          "page-about-10-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": false
         }
       }
     },
