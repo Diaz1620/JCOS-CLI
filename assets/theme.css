@@ -21499,3 +21499,10 @@ ul.tabs--center > li {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+
+.jdgm-widget.jdgm-widget {
+  display: none !important;
+}
+
+
+
