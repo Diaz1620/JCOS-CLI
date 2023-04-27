@@ -1403,7 +1403,7 @@
           "title": "",
           "grid": 6,
           "rows": 2,
-          "enable_reviews": true,
+          "enable_reviews": false,
           "layout_mobile": "carousel"
         }
       },
