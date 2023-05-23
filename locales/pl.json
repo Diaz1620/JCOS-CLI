@@ -345,55 +345,55 @@
       "from": "",
       "quick_view": "",
       "quick_view_added": "",
-      "recently_viewed": "",
-      "view_space": "",
-      "description": "",
-      "read_more": "",
-      "view_product": "",
-      "reviews": "",
-      "review": "",
-      "see_all": "",
-      "upsell_title": "",
-      "upsell_add_to_cart": "",
-      "upsell_out_of_stock": "",
-      "upsell_error_title": "",
-      "upsell_error_info": ""
+      "recently_viewed": "Ostatnio oglądane",
+      "view_space": "Zobacz w swojej przestrzeni",
+      "description": "Opis",
+      "read_more": "Czytaj więcej",
+      "view_product": "Zobacz produkt",
+      "reviews": "Recenzje",
+      "review": "Recenzja",
+      "see_all": "Widzieć wszystko",
+      "upsell_title": "Idzie z:",
+      "upsell_add_to_cart": "Dodać",
+      "upsell_out_of_stock": "Obecnie brak na stanie",
+      "upsell_error_title": "Nieprawidłowy identyfikator produktu lub wariantu",
+      "upsell_error_info": "Sprawdź uchwyt produktu i identyfikator wariantu"
     },
     "product": {
-      "regular_price": "",
-      "sold_out": "",
-      "pre_order": "",
-      "on_sale": "",
-      "unavailable": "",
-      "compare_at": "",
-      "unit_price_label": "",
-      "subscription": "",
-      "save": "",
-      "one_time_purchase": "",
-      "quantity": "",
-      "add_to_cart": "",
-      "added": "",
-      "vendor": "",
-      "type": "",
-      "tags": "",
-      "ask_title": "",
-      "zoom": "",
-      "configure": "",
-      "select": "",
-      "select_value": "",
-      "each": ""
+      "regular_price": "Normalna cena",
+      "sold_out": "Wkrótce",
+      "pre_order": "Przed Sprzedaż",
+      "on_sale": "Sprzedaż",
+      "unavailable": "Niedostępne",
+      "compare_at": "Porównać do",
+      "unit_price_label": "Cena jednostkowa",
+      "subscription": "Subskrypcja",
+      "save": "Ratować",
+      "one_time_purchase": "Zakup jednorazowy",
+      "quantity": "Ilość",
+      "add_to_cart": "Dodaj do koszyka",
+      "added": "Dodany do koszyka:",
+      "vendor": "Sprzedawca",
+      "type": "Rodzaj",
+      "tags": "Tagi",
+      "ask_title": "Zapytaj o ten produkt:",
+      "zoom": "Powiększenie",
+      "configure": "Skonfiguruj",
+      "select": "Wybierać",
+      "select_value": "Wybierz wartość",
+      "each": "każdy"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "",
-      "subtext": "",
-      "disabled": "",
-      "expired": "",
-      "active": "",
-      "redeem": "",
-      "shop_link": "",
-      "print": ""
+      "title": "Oto Twoja karta podarunkowa {{ value }} do {{ shop }} !",
+      "subtext": "Oto Twoja karta podarunkowa!",
+      "disabled": "Niepełnosprawny",
+      "expired": "Wygasł {{ expiry }}",
+      "active": "Wygasa {{ expiry }}",
+      "redeem": "Użyj tego kodu przy kasie, aby zrealizować kartę podarunkową",
+      "shop_link": "Zacznij zakupy",
+      "print": "Wydrukować"
     }
   },
   "password": {
@@ -402,21 +402,21 @@
       "powered_by": ""
     },
     "form": {
-      "success": "",
-      "newsletter_title": "",
-      "placeholder": "",
-      "login": ""
+      "success": "Dziękujemy za rejestrację!",
+      "newsletter_title": "Subskrybuj aktualizacje",
+      "placeholder": "e-mail@example.com",
+      "login": "Hasło"
     },
     "buttons": {
-      "sign_up": "",
-      "store_login": "",
-      "newsletter_signup": "",
-      "login": ""
+      "sign_up": "Zapisać się",
+      "store_login": "Zaloguj się do sklepu",
+      "newsletter_signup": "Zapisz się do newslettera",
+      "login": "Zaloguj sie"
     }
   },
   "cart_popover": {
-    "checkout": "",
-    "continue_shopping": "",
-    "view_cart": ""
+    "checkout": "Sprawdzić",
+    "continue_shopping": "Kontynuować zakupy",
+    "view_cart": "Zobacz Koszyk"
   }
 }
