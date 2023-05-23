@@ -70,144 +70,144 @@
   },
   "blogs": {
     "article": {
-      "by_author": "",
-      "older_post": "",
-      "newer_post": "",
-      "related_products": "",
-      "tags": "",
-      "read_more": "",
-      "no_articles": "",
-      "back_to": "",
-      "all": ""
+      "by_author": "Autor {{ author }}",
+      "older_post": "Starsze posty",
+      "newer_post": "Nowsze posty",
+      "related_products": "Produkty powiązane",
+      "tags": "Tagi",
+      "read_more": "Czytaj więcej",
+      "no_articles": "Brak artykułów do pokazania.",
+      "back_to": "Wrócić do",
+      "all": "Wszystko"
     },
     "comments": {
-      "title": "",
-      "name": "",
-      "email": "",
-      "comment": "",
-      "post": "",
-      "moderated": "",
-      "success_moderated": "",
-      "success": "",
+      "title": "zostaw komentarz",
+      "name": "Imię",
+      "email": "E-mail",
+      "comment": "Komentarz",
+      "post": "Napisz komentarz",
+      "moderated": "Pamiętaj, że komentarze muszą zostać zatwierdzone przed publikacją",
+      "success_moderated": "Twój komentarz został pomyślnie wysłany. Opublikujemy go za chwilę, ponieważ nasz blog jest moderowany.",
+      "success": "Twój komentarz został pomyślnie wysłany! Dziękuję Ci!",
       "comments_with_count": {
-        "one": "",
-        "other": ""
+        "one": "{{ count }} komentarz",
+        "other": "{{ count }} komentarzy"
       }
     },
     "sidebar": {
-      "recent_articles": "",
-      "categories": "",
+      "recent_articles": "Ostatnie Artykuły",
+      "categories": "Kategorie",
       "pinterest": "",
-      "see_more": ""
+      "see_more": "Zobacz więcej..."
     }
   },
   "cart": {
     "general": {
-      "title": "",
-      "vendor": "",
-      "remove": "",
-      "subtotal": "",
-      "subtotal_items": "",
-      "subtotal_note": "",
-      "customer_note": "",
-      "cart_notes_label": "",
-      "pair_products": "",
-      "estimate_shipping_label": "",
-      "update": "",
-      "checkout": "",
-      "empty": "",
-      "savings": "",
-      "with": "",
-      "or": "",
-      "increase_quantity_label": "",
-      "decrease_quantity_label": "",
-      "quantity_field_label": "",
-      "continue_shopping": "",
-      "discount_label": "",
-      "limit_message": "",
-      "add_message": "",
+      "title": "Wózek",
+      "vendor": "Sprzedawca",
+      "remove": "Usunąć",
+      "subtotal": "Suma częściowa",
+      "subtotal_items": "Przedmiotów",
+      "subtotal_note": "Koszty wysyłki, podatki i kody rabatowe są obliczane przy kasie",
+      "customer_note": "Zostaw notatkę o swoim zamówieniu",
+      "cart_notes_label": "Dodaj uwagi do zamówienia",
+      "pair_products": "Para z",
+      "estimate_shipping_label": "Oszacuj wysyłkę",
+      "update": "Zaktualizuj koszyk",
+      "checkout": "Sprawdzić",
+      "empty": "Twój koszyk jest obecnie pusty.",
+      "savings": "oszczędzasz",
+      "with": "z",
+      "or": "lub",
+      "increase_quantity_label": "Zwiększ ilość guzików",
+      "decrease_quantity_label": "Zmniejsz liczbę guzików",
+      "quantity_field_label": "Pole ilości",
+      "continue_shopping": "Kontynuować zakupy",
+      "discount_label": "Oszczędzasz ||kwota|| z ||tytuł||",
+      "limit_message": "Nie ma więcej produktów do kupienia",
+      "add_message": "Dodałeś produkt:",
       "total_message": {
-        "one": "",
-        "other": ""
+        "one": "a masz {{ count }} produkt w koszyku",
+        "other": "a masz {{ count }} produktów w koszyku"
       },
-      "qualified_shipping_message": ""
+      "qualified_shipping_message": "Gratulacje! Twoje zamówienie kwalifikuje się do DARMOWEJ Wysyłki"
     },
     "shipping_calculator": {
-      "estimate_shipping": "",
-      "calculate_shipping": "",
-      "calculating": "",
-      "no_shipping_available": ""
+      "estimate_shipping": "Oszacuj wysyłkę",
+      "calculate_shipping": "Oblicz koszty dostawy",
+      "calculating": "Obliczenie...",
+      "no_shipping_available": "Nie wysyłamy do tego miejsca docelowego."
     }
   },
   "collections": {
     "general": {
-      "title": "",
-      "view_collection": "",
-      "no_matches": "",
-      "link_title": "",
-      "sort": "",
-      "filter_by": "",
-      "filter": "",
-      "all": "",
-      "reset": "",
+      "title": "Kolekcje",
+      "view_collection": "Zobacz kolekcję",
+      "no_matches": "UPS! Jeszcze nie, ale wkrótce. Wróć do nas kochanie.",
+      "link_title": "Przejrzyj naszą kolekcję {{ title }}",
+      "sort": "Sortuj według",
+      "filter_by": "Filtruj według",
+      "filter": "Filtr",
+      "all": "Wszystko",
+      "reset": "Resetowanie",
       "items": {
-        "heading": "",
-        "one": "",
-        "other": ""
+        "heading": "Kolekcja",
+        "one": "przedmiot",
+        "other": "przedmiotów"
       },
       "items_with_count": {
-        "one": "",
-        "other": ""
+        "one": "{{ count }} pozycji",
+        "other": "{{ count }} elementów"
       },
       "colors_with_count": {
-        "one": "",
-        "other": ""
+        "one": "kolor",
+        "other": "zabarwienie"
       }
     },
     "sidebar": {
-      "vendors": "",
-      "no_vendors": "",
-      "tags": "",
-      "no_tags": ""
+      "vendors": "Sprzedawcy",
+      "no_vendors": "Dodaj dostawcę do swojego produktu, aby ta lista tworzyła się sama.",
+      "tags": "Tagi",
+      "no_tags": "Dodaj tagi do swoich produktów, aby ta lista tworzyła się sama."
     }
   },
   "contact": {
     "form": {
-      "name": "",
-      "email": "",
-      "message": "",
-      "phone": "",
-      "subject": "",
-      "send": "",
-      "post_success": ""
+      "name": "Imię",
+      "email": "E-mail",
+      "message": "Wiadomość",
+      "phone": "Numer telefonu",
+      "subject": "Temat",
+      "send": "Wysłać",
+      "post_success": "Dziękujemy za kontakt. Skontaktujemy się z Tobą tak szybko, jak to możliwe."
     }
   },
   "customer": {
     "account": {
-      "account": "",
-      "title": "",
-      "details": "",
-      "view_addresses": "",
-      "return": "",
-      "contact_store": ""
+      "account": "Konto",
+      "title": "Moje konto",
+      "details": "Szczegóły Konta",
+      "view_addresses": "Wyświetl adresy",
+      "return": "Wróć do szczegółów konta",
+      "contact_store": "Kontakt Sklep"
     },
     "activate_account": {
-      "title": "",
-      "subtext": "",
-      "password": "",
-      "password_confirm": "",
-      "submit": "",
-      "cancel": ""
+      "title": "Aktywuj konto",
+      "subtext": "Utwórz hasło, aby aktywować swoje konto.",
+      "password": "Hasło",
+      "password_confirm": "Potwierdź hasło",
+      "submit": "Aktywuj konto",
+      "cancel": "Odrzuć zaproszenie"
     },
     "addresses": {
-      "title": "",
-      "default": "",
-      "add_new": "",
-      "edit_address": "",
-      "first_name": "",
-      "last_name": "",
-      "company": "",
-      "address1": "",
+      "title": "Twoje adresy",
+      "default": "Domyślna",
+      "add_new": "Dodaj nowy adres",
+      "edit_address": "Edytuj adres",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "company": "Spółka",
+      "address1": "Adres 1",
       "address2": "",
       "city": "",
       "country": "",
