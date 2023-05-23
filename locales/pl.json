@@ -208,89 +208,89 @@
       "last_name": "Nazwisko",
       "company": "Spółka",
       "address1": "Adres 1",
-      "address2": "",
-      "city": "",
-      "country": "",
-      "province": "",
-      "zip": "",
-      "phone": "",
-      "set_default": "",
-      "add": "",
-      "update": "",
-      "cancel": "",
-      "edit": "",
-      "delete": "",
-      "delete_confirm": ""
+      "address2": "Adres 2",
+      "city": "Miasto",
+      "country": "Kraj",
+      "province": "Województwo",
+      "zip": "Kod pocztowy",
+      "phone": "Telefon",
+      "set_default": "Ustaw jako adres domyślny",
+      "add": "Dodaj adres",
+      "update": "Zaktualizuj adres",
+      "cancel": "Anuluj",
+      "edit": "Edytować",
+      "delete": "Usunąć",
+      "delete_confirm": "Czy na pewno chcesz usunąć ten adres?"
     },
     "login": {
-      "title": "",
-      "email": "",
-      "password": "",
-      "forgot_password": "",
-      "sign_in": "",
-      "cancel": "",
-      "guest_title": "",
-      "guest_continue": "",
-      "create_account_prompt": "",
-      "create_account_cta": ""
+      "title": "Zaloguj sie",
+      "email": "E-mail",
+      "password": "Hasło",
+      "forgot_password": "Zapomniałeś hasła?",
+      "sign_in": "Zaloguj",
+      "cancel": "Wróć do sklepu",
+      "guest_title": "Kontynuuj jako gość",
+      "guest_continue": "Kontynuować",
+      "create_account_prompt": "Nie masz konta?",
+      "create_account_cta": "Podpisz tutaj"
     },
     "orders": {
-      "title": "",
-      "order_number": "",
-      "date": "",
-      "payment_status": "",
-      "fulfillment_status": "",
-      "total": "",
-      "none": ""
+      "title": "Historia zamówień",
+      "order_number": "Zamówienie",
+      "date": "Data",
+      "payment_status": "Status płatności",
+      "fulfillment_status": "Stan realizacji",
+      "total": "Całkowity",
+      "none": "Nie złożyłeś jeszcze żadnych zamówień."
     },
     "order": {
-      "title": "",
-      "date": "",
-      "cancelled": "",
-      "cancelled_reason": "",
-      "billing_address": "",
-      "payment_status": "",
-      "shipping_address": "",
-      "fulfillment_status": "",
-      "discount": "",
-      "shipping": "",
-      "tax": "",
+      "title": "Zamów {{ name }}",
+      "date": "Umieszczono {{ date }}",
+      "cancelled": "Zamówienie anulowane w dniu {{ date }}",
+      "cancelled_reason": "Powód: {{ reason }}",
+      "billing_address": "Adres rozliczeniowy",
+      "payment_status": "Status płatności",
+      "shipping_address": "adres wysyłki",
+      "fulfillment_status": "Stan realizacji",
+      "discount": "Rabat",
+      "shipping": "Wysyłka",
+      "tax": "Podatek",
       "details": {
-        "product": "",
+        "product": "Produkt",
         "sku": "",
-        "price": "",
-        "quantity": "",
-        "total": "",
-        "fulfilled_at": "",
-        "saved_with": "",
-        "subtotal": ""
+        "price": "Cena £",
+        "quantity": "Ilość",
+        "total": "Całkowity",
+        "fulfilled_at": "Spełnione {{ date }}",
+        "saved_with": "zapisane z",
+        "subtotal": "Suma częściowa"
       }
     },
     "recover_password": {
-      "title": "",
-      "email": "",
-      "submit": "",
-      "cancel": "",
-      "subtext": "",
-      "success": ""
+      "title": "Zresetuj swoje hasło",
+      "email": "E-mail",
+      "submit": "Składać",
+      "cancel": "Anuluj",
+      "subtext": "Wyślemy Ci wiadomość e-mail, aby zresetować hasło.",
+      "success": "Wysłaliśmy Ci wiadomość e-mail z linkiem do aktualizacji hasła."
     },
     "reset_password": {
-      "title": "",
-      "subtext": "",
-      "password": "",
-      "password_confirm": "",
-      "submit": ""
+      "title": "Zresetuj hasło do konta",
+      "subtext": "Wprowadź nowe hasło dla {{ email }}",
+      "password": "Hasło",
+      "password_confirm": "Potwierdź hasło",
+      "submit": "Zresetuj hasło"
     },
     "register": {
-      "title": "",
-      "first_name": "",
-      "last_name": "",
-      "email": "",
-      "password": "",
-      "submit": "",
-      "cancel": "",
-      "sign_in_prompt": "",
-      "sign_in_cta": ""
+      "title": "Utwórz konto",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "email": "E-mail",
+      "password": "Hasło",
+      "submit": "Tworzyć",
+      "cancel": "Wróć do sklepu",
+      "sign_in_prompt": "Posiadasz już konto?",
+      "sign_in_cta": "Podpisz tutaj"
     }
   },
   "date_formats": {
@@ -299,52 +299,52 @@
   },
   "home_page": {
     "sections": {
-      "frontpage_title": "",
-      "featured_title": "",
-      "news_title": ""
+      "frontpage_title": "Kolekcja pierwszej strony",
+      "featured_title": "Polecane kolekcje",
+      "news_title": "Najnowsze wiadomości"
     },
     "onboarding": {
-      "no_products_html": "",
-      "add_product": "",
-      "product_title": "",
-      "no_collections_html": "",
-      "no_description": "",
-      "no_content": "",
-      "collection_image": "",
-      "collection_title": ""
+      "no_products_html": "Nie masz żadnych produktów w swojej kolekcji Frontpage. Ten symbol zastępczy będzie wyświetlany, dopóki nie <a href=\"\/admin\/custom_collections\">dodasz produktu do tej kolekcji<\/a> .",
+      "add_product": "Dodaj produkt",
+      "product_title": "Przykładowa nazwa produktu",
+      "no_collections_html": "Nie masz tutaj żadnych kolekcji do pokazania. <a href=\"\/admin\/custom_collections\">Dodaj kilka kolekcji<\/a> , aby pasowały do domyślnej strony głównej.",
+      "no_description": "To jest przykładowy opis produktu. Po dodaniu produktu ten tekst ulegnie zmianie.",
+      "no_content": "Ta sekcja obecnie nie zawiera żadnych treści. Dodaj treść do tej sekcji za pomocą paska bocznego.",
+      "collection_image": "Obraz kolekcji",
+      "collection_title": "Przykładowy tytuł kolekcji"
     }
   },
   "layout": {
     "customer": {
-      "logged_in_as": "",
-      "log_out": "",
-      "log_in": "",
-      "create_account": ""
+      "logged_in_as": "zalogowany jako",
+      "log_out": "Wyloguj",
+      "log_in": "Zaloguj sie",
+      "create_account": "Utwórz konto"
     },
     "header": {
       "menu": ""
     },
     "footer": {
       "social_platform": "",
-      "linklist_title": "",
-      "social_title": "",
-      "newsletter_title": "",
-      "currency": "",
-      "language": "",
-      "accepted_payments": ""
+      "linklist_title": "Szybkie linki",
+      "social_title": "Połącz się",
+      "newsletter_title": "Biuletyn Informacyjny",
+      "currency": "Waluta",
+      "language": "Język",
+      "accepted_payments": "Akceptowane płatności"
     },
     "search_page": {
-      "singular_article": "",
-      "singular_page": ""
+      "singular_article": "Poczta",
+      "singular_page": "Strona"
     }
   },
   "products": {
     "general": {
-      "previous": "",
-      "next": "",
-      "from": "",
-      "quick_view": "",
-      "quick_view_added": "",
+      "previous": "Poprzedni",
+      "next": "Następny",
+      "from": "Od",
+      "quick_view": "Szybkie dodawanie",
+      "quick_view_added": "Dodano do koszyka",
       "recently_viewed": "Ostatnio oglądane",
       "view_space": "Zobacz w swojej przestrzeni",
       "description": "Opis",
